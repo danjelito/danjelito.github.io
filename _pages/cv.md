@@ -76,6 +76,6 @@ Certifications
 
 Portfolio
 ======
-* [Website](https://danjelito.github.io)  
 * [GitHub](https://github.com/danjelito)  
 * [Kaggle](https://www.kaggle.com/devananjelito)
+* [Website](https://danjelito.github.io)  
