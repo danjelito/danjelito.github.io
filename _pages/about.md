@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm **Devan Anjelito**, a data practitioner working at the intersection of business and data. By day, I lead Business Intelligence at Wall Street English Indonesia. By night, I write some dumb things, experiment, and think aloud—mostly through code.
+Hi, I'm **Devan Anjelito**, a data practitioner working at the intersection of business and data. By day, I lead Business Intelligence at Wall Street English Indonesia. By night, I write some dumb things, experiment, and think aloud, mostly through code.
 
 This website is where I share things I’ve learned, questions I’m exploring, and projects I’m building. Some of it is technical (machine learning, data analysis, statistics), some of it is reflective (on learning, work, thinking), and some of it is just me trying to figure things out in public.
+
+Use the navigation bar above to see my blog, portfolio, and CV.
 
 ### What you’ll find here
 
