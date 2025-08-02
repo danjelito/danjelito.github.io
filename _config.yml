@@ -12,8 +12,8 @@ site_theme               : "default"
 title                    : "Devan's Notes"
 title_separator          : "-"
 name                     : &name "Devan Anjelito"
-description              : "A collection of experiments, essays, and explorations in data and learning."
-url                      : danjelito.github.io
+description              : &description "A collection of experiments, essays, and explorations in data and learning."
+url                      : https://danjelito.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "danjelito/danjelito.github.io"
 
