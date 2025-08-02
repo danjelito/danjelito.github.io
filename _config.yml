@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Devan's Notes"
 title_separator          : "-"
-name                     : "Devan Anjelito"
+name                     : &name "Devan Anjelito"
 description              : "A collection of experiments, essays, and explorations in data and learning."
 url                      : danjelito.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
