@@ -8,9 +8,11 @@ tags:
   - meetings
 ---
 
-<img src="{{ '/images/blog_posts/meeting_1.png' | relative_url }}" alt="Meeting" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
-
-<img src="{{ '/images/blog_posts/meeting_2.png' | relative_url }}" alt="Meeting" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/meeting_1.png' | relative_url }}" 
+  alt="Meeting 1" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 One day I woke up feeling great, but then I looked at my calendar and saw this (see the image):  
 - 6 meetings scheduled  
@@ -22,7 +24,13 @@ Suddenly, that great feeling was gone.
 
 [A survey by Dialpad](https://www.dialpad.com/blog/video-conferencing-report?__cf_chl_tk=yXG2bjt2gT8xt1G9IiTKrGZFtlKlOHhxae5EzId.1Lo-1754194451-1.0.1.1-r.a6fuu1wmFkjZXobeCpT.QvdQYbDie.ZM0zwmjWwQ0) shows that about 83% of employees spend up to a third of their workweek in meetings. A THIRD. That’s 2.6 hours out of an 8-hour workday.
 
-To put that into perspective, if we work about 220 days a year (counting holidays and leave), that adds up to roughly 572 hours spent in meetings annually. That’s 24 full days—more than our annual leave! (See the second slide for a graph.)
+To put that into perspective, if we work about 220 days a year (counting holidays and leave), that adds up to roughly 572 hours spent in meetings annually. That’s 24 full days—more than our annual leave! 
+
+<img 
+  src="{{ '/images/blog_posts/meeting_2.png' | relative_url }}" 
+  alt="Meeting 2" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 I believe that most meetings are unnecessary. If your day is filled with meetings, when can you focus on deep work? When can you think clearly? When can you tackle important tasks? Economically speaking, meetings don’t create value. Value comes from people who create things and produce goods. That’s what really drives value.
 

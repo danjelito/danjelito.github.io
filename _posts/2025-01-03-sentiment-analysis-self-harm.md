@@ -8,7 +8,11 @@ tags:
   - sentiment analysis
 ---
 
-<img src="{{ '/images/blog_posts/shap.jpg' | relative_url }}" alt="SHAP analysis" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/shap.jpg' | relative_url }}" 
+  alt="SHAP analysis" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Data, when leveraged, can be very powerful.
 

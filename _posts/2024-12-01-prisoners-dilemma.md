@@ -8,7 +8,11 @@ tags:
   - machine learning
 ---
 
-<img src="{{ '/images/blog_posts/game_theory.jpg' | relative_url }}" alt="Game theory" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/game_theory.jpg' | relative_url }}" 
+  alt="Game theory" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 In the mathematical field of *game theory*, there’s a game known as the **Prisoner’s Dilemma**. The game unfolds as follows:
 

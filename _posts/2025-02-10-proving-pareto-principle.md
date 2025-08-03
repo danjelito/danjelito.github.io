@@ -8,9 +8,17 @@ tags:
   - productivity
 ---
 
-<img src="{{ '/images/blog_posts/pareto_1.png' | relative_url }}" alt="Pareto" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/pareto_1.png' | relative_url }}" 
+  alt="Pareto" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
-<img src="{{ '/images/blog_posts/pareto_2.png' | relative_url }}" alt="Pareto" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/pareto_2.png' | relative_url }}" 
+  alt="Pareto" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 I am a big fan of the Pareto Principle, which states that **80% of results often come from just 20% of efforts**. But how can we prove this principle with data?
 

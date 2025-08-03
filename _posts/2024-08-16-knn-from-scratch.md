@@ -9,7 +9,11 @@ tags:
   - hands-on learning
 ---
 
-<img src="{{ '/images/blog_posts/knn.jpg' | relative_url }}" alt="KNN implementation from scratch" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/knn.jpg' | relative_url }}" 
+  alt="KNN implementation from scratch" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 In my experience, the most effective way to grasp math is by *starting from scratch*. This hands-on approach has helped me truly understand concepts like *algebra*, *calculus*, and *statistics*.
 

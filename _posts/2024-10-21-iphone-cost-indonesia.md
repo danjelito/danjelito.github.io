@@ -8,7 +8,12 @@ tags:
   - technology
 ---
 
-<img src="{{ '/images/blog_posts/iphone.jpg' | relative_url }}" alt="iPhone price" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/iphone.jpg' | relative_url }}" 
+  alt="iPhone price" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
+
 
 I've been noticing something interesting: about 90% of my colleagues at work use an iPhone. Even back home in my small town, about 25% of people I know use one. When you compare the price of an iPhone to Indonesian median income, this is wild! For an average Indonesian, it takes 139 working days just to afford an iPhone. And that’s working days, not calendar days! And this doesn’t even account for our other living expenses!
 

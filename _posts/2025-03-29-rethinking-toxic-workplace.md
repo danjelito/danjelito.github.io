@@ -8,7 +8,11 @@ tags:
   - professional growth
 ---
 
-<img src="{{ '/images/blog_posts/toxic.jpg' | relative_url }}" alt="Toxic Workplace" style="max-width: 600px; height: auto; display: block; margin: 1em 0;" />
+<img 
+  src="{{ '/images/blog_posts/toxic.jpg' | relative_url }}" 
+  alt="Toxic Workplace" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 About 50% of my LinkedIn feed is filled with people complaining about their workplace. People like, repost, and comment on posts titled "Signs of a Toxic Workplace," "Is Your Manager Toxic?", or "Why You Should Leave a Toxic Company."
 
