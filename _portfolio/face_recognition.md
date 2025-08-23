@@ -4,9 +4,11 @@ excerpt: "A real-time face recognition system that stores a database of faces an
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/face_recognition.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/face_recognition.png' | relative_url }}" 
+  alt="Face recognition" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 This system allows us to create a database of faces which we can then utilize for person recognition in videos.  
 

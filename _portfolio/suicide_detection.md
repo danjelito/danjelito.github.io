@@ -4,9 +4,11 @@ excerpt: "A model to identify potential suicide ideation in tweets using sentime
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/suicide-tweet.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/suicide-tweet.png' | relative_url }}" 
+  alt="Suicide tweet" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 I develop a model to identify potential suicide ideation in tweets using sentiment analysis.  
 

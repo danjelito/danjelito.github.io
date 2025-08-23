@@ -4,9 +4,11 @@ excerpt: "A machine learning project exploring SHAP for feature interpretability
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/shap.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/shap.png' | relative_url }}" 
+  alt="SHAP" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Exploring SHAP for feature interpretability in a simplified gender classification project using machine learning.  
 

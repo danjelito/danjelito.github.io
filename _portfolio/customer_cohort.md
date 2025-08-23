@@ -4,9 +4,11 @@ excerpt: "Conduct a customer cohort analysis to gain insights into evolving cust
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/cohort.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/cohort.png' | relative_url }}" 
+  alt="Customer cohort" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Conduct a customer cohort analysis to gain insights into evolving customer behavior over time.  
 

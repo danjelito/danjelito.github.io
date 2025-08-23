@@ -4,9 +4,11 @@ excerpt: "Sentiment analysis of Amazon reviews using VADER and RoBERTa models, w
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/roberta.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/roberta.png' | relative_url }}" 
+  alt="Rpberta" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 This project focuses on sentiment analysis of Amazon reviews using two models: VADER (a rule-based model from NLTK) and RoBERTa (a transformer-based model from Hugging Face).  
 

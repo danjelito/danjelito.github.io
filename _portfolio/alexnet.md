@@ -4,9 +4,11 @@ excerpt: "Implement AlexNet, a deep learning architecture, to classify sport ima
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/alexnet.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/blog_posts/alexnet.png' | relative_url }}" 
+  alt="AlexNet" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Implement AlexNet, a groundbreaking deep learning architecture, to classify sport images into 5 different sports categories.
   

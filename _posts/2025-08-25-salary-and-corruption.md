@@ -32,7 +32,7 @@ A public official in Indonesia earns about $6,390 per month, while the minimum w
   src="{{ '/images/blog_posts/salary-and-corruption-2.png' | relative_url }}" 
   alt="Salary and Corruption" 
   style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
-/>
+/>  
 
 <img 
   src="{{ '/images/blog_posts/salary-and-corruption-3.png' | relative_url }}" 

@@ -4,9 +4,11 @@ excerpt: "Using a CNN algorithm to analyze lung scans and detect signs of Covid-
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/covid_detection.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/covid_detection.png' | relative_url }}" 
+  alt="Covid detection" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 I use a clever computer trick called a CNN algorithm to check lung scans for Covid-19. It's like a smart assistant that looks at the pictures and helps find any signs of the virus.  
 

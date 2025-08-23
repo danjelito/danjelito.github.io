@@ -4,9 +4,11 @@ excerpt: "An interactive sales dashboard presenting key metrics and insights vis
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/dashboard_supermarket_2.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/dashboard_supermarket_2.png' | relative_url }}" 
+  alt="Supermarket sales dashboard" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Develop an interactive dashboard showcasing essential sales data for stakeholders.  
 The dashboard serves as a dynamic tool, presenting key metrics and insights in a visually engaging format.  

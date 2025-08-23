@@ -4,9 +4,11 @@ excerpt: "A movie recommendation system combining content and collaborative filt
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/movie_recommendation.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/movie_recommendation.png' | relative_url }}" 
+  alt="Movie detection" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 As a movie enthusiast, I create movie recommendations using a combination of content and collaborative filtering.  
 

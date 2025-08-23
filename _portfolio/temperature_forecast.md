@@ -4,9 +4,11 @@ excerpt: "Using Meta's Prophet algorithm for time series forecasting—a data cr
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/temp_prediction.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/temp_prediction.png' | relative_url }}" 
+  alt="Temperature prediction" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Utilizing Meta's Prophet algorithm, I engage in time series forecasting.  
 

@@ -4,9 +4,11 @@ excerpt: "Using LSTM to detect offensive language and hate speech in tweets. The
 collection: portfolio
 ---
 
-<p style="margin-top: 16px;">
-  <img src="/images/projects/hate_speech.png" style="max-width: 500px; height: auto;">
-</p>
+<img 
+  src="{{ '/images/projects/hate_speech.png' | relative_url }}" 
+  alt="Hate speech" 
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+/>
 
 Using LSTM, I detect offensive language and hate speech in tweets—a simple yet impactful NLP problem.  
 
