@@ -9,7 +9,7 @@ tags:
 ---
 
 <img 
-  src="{{ '/images/blog_posts/shap.jpg' | relative_url }}" 
+  src="{{ '/images/blog_posts/shap.png' | relative_url }}" 
   alt="SHAP analysis" 
   style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
 />

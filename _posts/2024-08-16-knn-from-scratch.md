@@ -10,7 +10,7 @@ tags:
 ---
 
 <img 
-  src="{{ '/images/blog_posts/knn.jpg' | relative_url }}" 
+  src="{{ '/images/blog_posts/knn.png' | relative_url }}" 
   alt="KNN implementation from scratch" 
   style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
 />

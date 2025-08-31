@@ -9,7 +9,7 @@ tags:
 ---
 
 <img 
-  src="{{ '/images/blog_posts/iphone.jpg' | relative_url }}" 
+  src="{{ '/images/blog_posts/iphone.png' | relative_url }}" 
   alt="iPhone price" 
   style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
 />
