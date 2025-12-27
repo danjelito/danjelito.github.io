@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Devan's Notes"
+title                    : "Devan's Brain Dump"
 title_separator          : "-"
 name                     : &name "Devan Anjelito"
 description              : &description "A collection of experiments, essays, and explorations in data and learning."
