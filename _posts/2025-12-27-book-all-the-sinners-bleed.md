@@ -10,7 +10,7 @@ tags:
 <img 
   src="{{ '/images/blog_posts/book-all-the-sinners-bleed.png' | relative_url }}" 
   alt="All the Sinners Bleed" 
-  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
+  style="max-height: 600px; display: block; margin: 1em 0;" 
 />
 
 _Source: [Goodreads](https://www.goodreads.com/book/show/61884832-all-the-sinners-bleed)_
