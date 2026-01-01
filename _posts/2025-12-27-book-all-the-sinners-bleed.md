@@ -25,4 +25,6 @@ What I really love about the book is its pacing. Never did I find any section th
 
 Finally, as I said before, I think I need to read more non-fantasy novels. Right now, I'm in the middle of *The Sun Eater* series. However, it sounds like Hadrian Marlowe must wait.[^1] This book has done that much.
 
+5/5
+
 [^1]: Hadrian Marlowe is the protagonist of *The Sun Eater* science fiction series by Christopher Ruocchio.

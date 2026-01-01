@@ -31,3 +31,5 @@ Where the book shines is in its ambition. The universe feels large, old, and lay
 In the end, I did not dislike *Empire of Silence*, but I also did not love it. It feels like the opening move rather than a complete novel. If you want an action-packed story, this book may test your patience, as it did mine.
 
 I will continue the series, but more out of curiosity. The empire is truly silent for now. I am still waiting to hear it speak.
+
+3/5
