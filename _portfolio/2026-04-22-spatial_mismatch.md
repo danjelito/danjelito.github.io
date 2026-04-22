@@ -1,5 +1,5 @@
 ---
-title: "Jakarta's Traffic Problem Is Actually a Housing Problem"
+title: "Analysis: Jakarta's Traffic Problem Is Actually a Housing Problem"
 excerpt: "61% of commuters from South Jakarta are stressed. Traffic is the symptom. Spatial mismatch is the disease.<br/><img src='/images/projects/spatial-mismatch/where-do-people-live-and-where-are-businesses-concentrated.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
 collection: portfolio
 ---
