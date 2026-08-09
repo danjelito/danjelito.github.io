@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Not Quite Dead Yet"
 date: 2026-02-24
-permalink: /posts/2026/book-not-quite-dead-yet.md/
 tags:
-    - book
     - mystery
 ---
 

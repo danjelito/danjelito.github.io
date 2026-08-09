@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Chain-Gang All-Stars"
 date: 2026-01-18
-permalink: /posts/2026/book-chain-gang-all-stars.md/
 tags:
-    - book
     - dystopia
 ---
 

@@ -1,9 +1,7 @@
 ---
 title: "Book Review: The Sword of Kaigen"
 date: 2026-04-17
-permalink: /posts/2026/the-sword-of-kaigen/
 tags:
-    - book
     - fantasy
     - military
 ---

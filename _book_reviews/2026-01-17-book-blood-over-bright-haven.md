@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Blood Over Bright Haven"
 date: 2026-01-18
-permalink: /posts/2026/book-blood-over-bright-haven.md/
 tags:
-    - book
     - mystery
 ---
 

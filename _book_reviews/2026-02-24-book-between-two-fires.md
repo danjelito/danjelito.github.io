@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Between Two Fires"
 date: 2026-02-24
-permalink: /posts/2026/book-between-two-fires.md/
 tags:
-    - book
     - horror
 ---
 

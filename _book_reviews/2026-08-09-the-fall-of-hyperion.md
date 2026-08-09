@@ -1,9 +1,7 @@
 ---
 title: "Book Review: The Fall of Hyperion"
 date: 2026-08-09
-permalink: /posts/2026/the-fall-of-hyperion/
 tags:
-    - book
     - sci-fi
 ---
 

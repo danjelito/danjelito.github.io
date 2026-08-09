@@ -217,6 +217,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  book_reviews:
+    output: true
+    permalink: /book-reviews/:name/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -251,6 +254,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _book_reviews
+  - scope:
+      path: ""
+      type: book_reviews
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
   # _teaching
   - scope:
       path: ""

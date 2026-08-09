@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Tender Is the Flesh"
 date: 2026-04-17
-permalink: /posts/2026/tender-is-the-flesh/
 tags:
-    - book
     - horror
 ---
 

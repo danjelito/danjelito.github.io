@@ -1,7 +1,6 @@
 ---
 title: "Book Review: Remembrance of Earth's Past"
 date: 2026-08-09
-permalink: /posts/2026/book-remembrance-of-earths-past/
 tags:
   - book
   - sci-fi

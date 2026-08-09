@@ -1,7 +1,6 @@
 ---
 title: "Book Review: All the Sinners Bleed"
 date: 2025-12-27
-permalink: /posts/2025/book-all-the-sinners-bleed.md/
 tags:
   - book
   - thriller

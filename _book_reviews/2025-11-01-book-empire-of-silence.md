@@ -1,7 +1,6 @@
 ---
 title: "Book Review: Empire of Silence"
 date: 2025-11-01
-permalink: /posts/2025/book-empire-of-silence.md/
 tags:
   - book
   - science-fiction

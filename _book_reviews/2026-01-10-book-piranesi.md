@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Piranesi"
 date: 2026-01-10
-permalink: /posts/2026/book-piranesi.md/
 tags:
-    - book
     - sci-fi
 ---
 

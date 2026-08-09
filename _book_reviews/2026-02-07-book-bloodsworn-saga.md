@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Bloodsworn Saga"
 date: 2026-02-07
-permalink: /posts/2026/book-bloodsworn-saga.md/
 tags:
-    - book
     - fantasy
 ---
 

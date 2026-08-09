@@ -1,9 +1,7 @@
 ---
 title: "Book Review: Project Hail Mary"
 date: 2026-01-01
-permalink: /posts/2026/book-project-hail-mary.md/
 tags:
-    - book
     - sci-fi
 ---
 

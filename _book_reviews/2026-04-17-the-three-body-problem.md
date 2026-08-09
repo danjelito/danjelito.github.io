@@ -1,7 +1,6 @@
 ---
 title: "Book Review: The Three-Body Problem"
 date: 2026-04-17
-permalink: /posts/2026/the-three-body-problem/
 tags:
   - book
   - sci-fi

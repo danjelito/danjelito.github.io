@@ -5,7 +5,8 @@ This is my personal portfolio site, built with [Academic Pages](https://academic
 ## What You'll Find Here
 
 - **Portfolio Projects:** Machine learning, data analysis, computer vision, and visualization projects.  
-- **Blog Posts:** Essays, tutorials, and personal notes about tech, data, and learning.  
+- **Blog Posts:** Essays, tutorials, and personal notes about tech, data, and learning.
+- **Book Reviews:** Reviews of fiction, non-fiction, sci-fi, horror, etc. in a separate section.
 - **About Me:** Info about my background and interests.
 - Othe random stuffs
 
@@ -15,6 +16,7 @@ This is my personal portfolio site, built with [Academic Pages](https://academic
 - Content is organized in folders:
   - `_portfolio/` for project pages
   - `_posts/` for blog articles
+  - `_book_reviews/` for book reviews
   - `_pages/` for static pages (like About)
   - `etc`
 - All images and files are stored in the `images/` and `files/` folders.

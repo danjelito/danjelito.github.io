@@ -46,7 +46,8 @@ No database, no server-side runtime. All content is authored as files in content
 | `_layouts/` | Liquid layout templates (default, archive, single, talk, cv-layout) |
 | `_includes/` | Reusable Liquid partials (head, masthead, sidebar, footer, analytics, comments, scripts) |
 | `_pages/` | Standalone pages: about, CV, portfolio index, blog archive, 404, sitemap, etc. |
-| `_posts/` | Blog posts and book reviews (Markdown with YAML frontmatter, date-prefixed filenames) |
+| `_posts/` | Blog posts (Markdown with YAML frontmatter, date-prefixed filenames) |
+| `_book_reviews/` | Book reviews collection (Markdown with YAML frontmatter, output at `/book-reviews/:name/`) |
 | `_portfolio/` | Portfolio project pages (Markdown, `collection: portfolio` in frontmatter) |
 | `_talks/` | Talk/presentation entries (currently placeholder content) |
 | `_teaching/` | Teaching experience entries (currently placeholder content) |
@@ -64,7 +65,7 @@ No database, no server-side runtime. All content is authored as files in content
 ## Content Flow
 
 ```
-Author writes Markdown in _posts/, _portfolio/, _talks/, etc.
+Author writes Markdown in _posts/, _book_reviews/, _portfolio/, _talks/, etc.
   ↓
 YAML frontmatter specifies layout, title, collection, permalink, tags
   ↓
@@ -119,6 +120,17 @@ tags: - tag1 - tag2
 ---
 ```
 
+### Book Reviews (`_book_reviews/`)
+```yaml
+---
+title: "Book Review: Title"
+date: YYYY-MM-DD
+tags: - sci-fi - horror
+---
+```
+Collection permalink: `/book-reviews/:name/` (e.g. `/book-reviews/hyperion/`)
+No `permalink` in frontmatter — collection default handles it.
+
 ### Portfolio Items (`_portfolio/`)
 ```yaml
 ---
@@ -140,13 +152,13 @@ author_profile: true
 
 ## Conventions
 
-- **Filenames**: `YYYY-MM-DD-slug.md` for posts, portfolio, talks, teaching
+- **Filenames**: `YYYY-MM-DD-slug.md` for posts, book reviews, portfolio, talks, teaching
 - **SCSS partials**: Prefixed with `_` (Jekyll/Sass convention)
 - **Tags**: Space-separated in YAML frontmatter (e.g. `tags: - book - horror`)
 - **Navigation**: Active links defined in `_data/navigation.yml`; hidden sections commented out
 - **Collection defaults**: Defined in `_config.yml` under `defaults:` by collection type
 - **Git commits**: Short, conventional style (`c337d55 Add article on Jakarta's traffic...`)
-- **Content**: Mixed English/Indonesian; blog includes book reviews, technical essays, data analysis
+- **Content**: Mixed English/Indonesian; blog covers technical essays and data analysis; book reviews in separate `_book_reviews/` collection
 - **Layout inheritance**: `single.html` for individual items, `archive.html` for listing pages, both extend `default.html` which extends `compress.html`
 
 ## Common Tasks
@@ -158,6 +170,7 @@ author_profile: true
 - **Build/minify JS**: `npm run build:js`
 - **Watch JS for changes**: `npm run watch:js`
 - **Add blog post**: Create `_posts/YYYY-MM-DD-slug.md` with frontmatter
+- **Add book review**: Create `_book_reviews/YYYY-MM-DD-slug.md` with frontmatter (no `permalink` needed)
 - **Add portfolio project**: Create `_portfolio/YYYY-MM-DD-slug.md` with `collection: portfolio`
 - **Update navigation**: Edit `_data/navigation.yml`
 - **Update site config**: Edit `_config.yml` (requires server restart)
