@@ -28,3 +28,5 @@ This is the biggest question I took away from the book: if we were to discover t
 > To conclude: confusing at first, but worth sticking with if you like your sci-fi. Mind will be blown.
 
 5/5
+
+_Read my review of the full trilogy: [Remembrance of Earth's Past](/posts/2026/book-remembrance-of-earths-past/)_
