@@ -13,7 +13,7 @@ But here is what rarely comes up in the conversation: traffic is not the actual 
 <img
   src="{{ '/images/projects/spatial-mismatch/where-do-people-live-and-where-are-businesses-concentrated.png' | relative_url }}"
   alt="Where people live and where businesses are concentrated"
-  style="width: 100%; max-width: 700px; height: auto; display: block; margin: 1em 0;"
+  style="width: 100%; max-width: 600px; height: auto; display: block; margin: 1em 0;" 
 />
 
 Look at Menteng and Setiabudi. Both have roughly **10 to 11 businesses per 1,000 residents**. These are job-dense, high-activity districts in the heart of Jakarta. Now look at Cakung. Cakung has around **0.8 businesses per 1,000 residents** but is home to nearly **478,000 people**, one of the most populous districts in Jakarta.

@@ -11,7 +11,7 @@ Hi, I'm **Devan Anjelito**, a data practitioner working at the intersection of b
 
 This website is where I share things I’ve learned, questions I’m exploring, and projects I’m building. Some of it is technical (machine learning, data analysis, statistics), some of it is reflective (on learning, work, book), and some of it is just me trying to figure things out in public.
 
-***Use the navigation bar above to see my [blog posts](https://danjelito.github.io/year-archive/), [portfolio](https://danjelito.github.io/portfolio/), and [CV](https://danjelito.github.io/cv/).***
+***Use the navigation bar above to see my [posts](https://danjelito.github.io/posts/), [portfolio](https://danjelito.github.io/portfolio/), [reviews](https://danjelito.github.io/book-reviews/), and [resume](https://danjelito.github.io/resume/).***
 
 What you’ll find here
 ------
