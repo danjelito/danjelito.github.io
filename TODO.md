@@ -157,3 +157,50 @@ Findings from a `/web-design-reviewer` audit of the Jekyll site (served at `http
 - All main routes return 200: `/`, `/portfolio/`, `/posts/`, `/book-reviews/`, `/resume/`, `/404.html`.
 - 404 page has proper title, `sitemap: false`, and narrow layout.
 - Amazon-hosted cover images (except the Brave URL in #1) currently return HTTP 200.
+
+## Cleanup
+
+Findings from a full-repo unused/orphaned-file audit (2026-08-16). Every candidate was checked for references via grep across `_layouts/`, `_includes/`, `_pages/`, `_config.yml`, `_data/`, content collections, JS, and build tooling (excluding `_site/`, `.git`, `node_modules/`, `vendor/`). The built `_site/` (57 pages) was cross-checked against nav + internal links — all routes reachable, no orphaned pages.
+
+- [x] **Completed: 2026-08-16** — Delete `images/3953273590_704e3899d5_m.jpg`, `images/site-logo.png`, `images/themes/homepage-dark.png`, `images/themes/homepage-light.png`
+  - Reason: zero references anywhere in source; favicons handled via `_includes/head/custom.html` + `images/manifest.json`.
+  - Checked: full-repo grep; head.html/custom.html; `_sass/theme/` no longer exists.
+  - Confidence: High
+  - Verification: `bundle exec jekyll build` succeeds; grep finds no refs.
+
+- [x] **Completed: 2026-08-16** — Delete 24 unreferenced `images/projects/*.png` (alcohol_correlation, car_price, coffee_quality_regression, comparison_2, covid19_idn, covid_forecast, covid_sql, dashboard_supermarket, employee_attrition, fraud_detection, grades_residual, handwriting_recognition, happiness_report, house_price, housing, machiney, movie, movie_correlation, rmse, sales_data, spotify, top6, TS_wordcloud, year_per_year_asean)
+  - Reason: no exact-path references; former consumer `markdown_generator/` no longer exists.
+  - Checked: exact `images/projects/<name>.png` grep across `_portfolio/`, `_posts/`, `_book_reviews/`, `_pages/`, `_layouts/`, `_includes/`, `_config.yml`.
+  - Confidence: High (static). If the user may regenerate portfolio items from these, keep them.
+  - Verification: grep zero refs; build succeeds; every rendered card image still resolves.
+
+- [x] **Completed: 2026-08-16** — Delete `files/` template samples (bibtex1.bib, paper1.pdf, paper2.pdf, paper3.pdf, slides1.pdf, slides2.pdf, slides3.pdf)
+  - Reason: zero references; Academic Pages template sample downloads.
+  - Checked: grep for each filename and `files/` across source.
+  - Confidence: High
+  - Verification: build succeeds.
+
+- [x] **Completed: 2026-08-16** — Delete `_drafts/post-draft.md`
+  - Reason: template lorem-ipsum draft; excluded from build (Jekyll default); references nonexistent `unsplash-gallery-image-2-th.jpg`.
+  - Checked: frontmatter/body; Jekyll `_drafts` exclusion.
+  - Confidence: High
+  - Verification: `jekyll build` — draft not in `_site/`.
+
+- [ ] Review: delete `CONTRIBUTING.md` + `.github/ISSUE_TEMPLATE/` (generic academicpages template text no longer accurate for a personal portfolio)
+  - Reason: template boilerplate; only referenced by GitHub conventions.
+  - Checked: file contents.
+  - Confidence: Medium
+  - Verification: `git status` shows expected deletions; build unaffected.
+
+- [ ] Review: prune `_data/ui-text.yml` to `en` / `en-US` only
+  - Reason: only ref is `seo.html:21` inside a disabled `{% if paginator %}` block (pagination commented out); `site.locale` is `en-US`.
+  - Checked: grep across includes/layouts/config.
+  - Confidence: Medium
+  - Verification: build succeeds; served HTML unchanged.
+
+- [ ] Review: remove dead `_config.yml` keys and unused gem
+  - Reason: `site_theme` referenced nowhere; `comments:`/`staticman:` blocks unused; `include: [.htaccess]` and `exclude:` entries (`CHANGELOG`, `Capfile`, `Gruntfile.js`, `gulpfile.js`, `Rakefile`, `assets/js/plugins`, `assets/js/vendor`) point to files that do not exist; `jemoji` gem not in `plugins:`/`whitelist:`.
+  - Checked: config vs filesystem vs Gemfile.
+  - Confidence: Medium
+  - Verification: build succeeds; keep `webrick` + `connection_pool` gems.
+
