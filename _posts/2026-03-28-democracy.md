@@ -4,6 +4,8 @@ excerpt: "Every voting system has a flaw. I built a simulation to show why democ
 image: /images/blog_posts/election-sim.png
 date: 2026-03-28
 permalink: /posts/2026/democracy/
+redirect_from:
+  - /posts/2026/democracy.md/
 featured: true
 tags:
   - Data Analysis

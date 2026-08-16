@@ -4,6 +4,8 @@ excerpt: "Comparing public officials' pay, minimum wages, and corruption across 
 image: /images/blog_posts/salary-and-corruption-1.png
 date: 2025-08-25
 permalink: /posts/2025/salary-and-corruption/
+redirect_from:
+  - /posts/2025/salary-and-corruption.md/
 featured: false
 tags:
   - Politics
