@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Fall of Hyperion"
 excerpt: "The pilgrim stories from Hyperion click into place in a single, more conventional narrative. Many mysteries still unresolved, though."
-image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg"
+image: /images/blog_posts/book-the-fall-of-hyperion.jpg
 date: 2026-08-09
 tags:
   - Book
@@ -9,14 +9,14 @@ tags:
 ---
 
 <img 
-  src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg" 
+  src="{{ '/images/blog_posts/book-the-fall-of-hyperion.jpg' | relative_url }}" 
   alt="The Fall of Hyperion" 
   style="max-height: 600px; display: block; margin: 1em 0;" 
 />
 
 _Source: [Goodreads](https://www.goodreads.com/en/book/show/77565.The_Fall_of_Hyperion)_
 
-I finished [Hyperion](/posts/2026/hyperion/) and immediately started The Fall of Hyperion. Where Hyperion is a collection of stories told by pilgrims on a journey, The Fall of Hyperion is a single, more conventional narrative. The pilgrims have arrived at the Time Tombs, the war with the Ousters is escalating, and the Hegemony is falling apart. The shift in structure is noticeable right away. Hyperion felt like reading seven different books stitched together. The Fall of Hyperion feels like one big book.
+I finished [Hyperion](/book-reviews/2026-04-17-hyperion/) and immediately started The Fall of Hyperion. Where Hyperion is a collection of stories told by pilgrims on a journey, The Fall of Hyperion is a single, more conventional narrative. The pilgrims have arrived at the Time Tombs, the war with the Ousters is escalating, and the Hegemony is falling apart. The shift in structure is noticeable right away. Hyperion felt like reading seven different books stitched together. The Fall of Hyperion feels like one big book.
 
 What stood out the most is how everything connects. The stories from the first book are not just backstory, they are pieces of a puzzle that The Fall of Hyperion assembles. A detail from the Priest's tale, a name from the Scholar's story, a concept from the Poet's saga. Everything threads together in ways I did not expect, and that feeling of pieces clicking into place is the best part of the book. It rewards the kind of attention that Hyperion demanded.
 

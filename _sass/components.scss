@@ -140,9 +140,13 @@
 }
 
 @media (max-width: 600px) {
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+
   .card,
   .card--featured {
-    grid-column: span 12;
+    grid-column: auto;
   }
 }
 

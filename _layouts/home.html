@@ -63,7 +63,7 @@ layout: default
     {% assign latest = site.portfolio | concat: site.posts | concat: site.book_reviews %}
     {% assign latest = latest | sort: 'date' | reverse %}
     {% for post in latest %}
-      {% if forloop.index > 6 %}{% break %}{% endif %}
+      {% if forloop.index > 9 %}{% break %}{% endif %}
       {% if post.collection == 'book_reviews' %}
         {% include card.html contain=true %}
       {% else %}

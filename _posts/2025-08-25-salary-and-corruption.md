@@ -3,7 +3,7 @@ title: "Public Officials’ Pay, Minimum Wages, and Corruption: What the Data Sh
 excerpt: "Comparing public officials' pay, minimum wages, and corruption across countries, and why the numbers look bad for Indonesia."
 image: /images/blog_posts/salary-and-corruption-1.png
 date: 2025-08-25
-permalink: /posts/2025/salary-and-corruption.md/
+permalink: /posts/2025/salary-and-corruption/
 featured: false
 tags:
   - Politics

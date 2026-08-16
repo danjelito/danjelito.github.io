@@ -25,7 +25,6 @@ author:
   avatar           : "main-photo.jpeg"
   name             : "Devan Anjelito"
   pronouns         : # example: "she/her"  
-  bio              : "A Data Scientist."
   location         : "Jakarta, Indonesia"
   employer         : "Gentem Indonesia Lifelong Learning Group"
   uri              : # URL
@@ -127,7 +126,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : "main-photo.jpeg" # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

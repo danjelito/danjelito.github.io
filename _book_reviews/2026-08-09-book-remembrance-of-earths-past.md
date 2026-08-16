@@ -1,7 +1,7 @@
 ---
 title: "Book Review: Remembrance of Earth's Past"
 excerpt: "From a secret project in Mao's China to the fate of the universe. The Dark Forest theory will follow you around for days."
-image: "https://imgs.search.brave.com/oZGZr04DpEl-sY8S9Afnk3DwpBDN5L40apOKeC70GDA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saWZl/b2ZjaGF6LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/Mi8xX2p1cXJoYXhh/c2txZTN6eXh4aXJw/MWcucG5nP3c9MTAz/OQ"
+image: /images/blog_posts/book-remembrance-of-earths-past.png
 date: 2026-08-09
 tags:
   - Book
@@ -9,7 +9,7 @@ tags:
 ---
 
 <img 
-  src="https://imgs.search.brave.com/oZGZr04DpEl-sY8S9Afnk3DwpBDN5L40apOKeC70GDA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saWZl/b2ZjaGF6LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/Mi8xX2p1cXJoYXhh/c2txZTN6eXh4aXJw/MWcucG5nP3c9MTAz/OQ" 
+  src="{{ '/images/blog_posts/book-remembrance-of-earths-past.png' | relative_url }}" 
   alt="Remembrance of Earth's Past" 
   style="max-height: 600px; display: block; margin: 1em 0;" 
 />
@@ -26,6 +26,6 @@ The trilogy is deeply philosophical but never lectures. The philosophy sits in t
 
 My favorite is The Dark Forest. It lays out the trilogy's core idea: the universe as a dark forest, every civilization a hunter hiding in the trees. Spot another hunter, the only safe move is to shoot first. This re-frames everything you thought you understood about why the cosmos is silent. I'll never think about the Fermi paradox the same way.
 
-If you want sci-fi built around ideas that refuse to leave your head, this trilogy delivers. The characters lean toward vehicles for ideas more than fully fleshed-out people. I didn't mind. The ideas are ambitious and carefully built, and that was enough. I reviewed [The Three-Body Problem](/posts/2026/the-three-body-problem/) a few months ago and gave it a 5/5. After all three books, the rating stands.
+If you want sci-fi built around ideas that refuse to leave your head, this trilogy delivers. The characters lean toward vehicles for ideas more than fully fleshed-out people. I didn't mind. The ideas are ambitious and carefully built, and that was enough. I reviewed [The Three-Body Problem](/book-reviews/2026-04-17-the-three-body-problem/) a few months ago and gave it a 5/5. After all three books, the rating stands.
 
 5/5

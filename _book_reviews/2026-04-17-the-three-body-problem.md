@@ -1,7 +1,7 @@
 ---
 title: "Book Review: The Three-Body Problem"
 excerpt: "Confusing at first, then it clicks and the scale explodes. Sci-fi that cares more about ideas than people."
-image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg"
+image: /images/blog_posts/book-the-three-body-problem.jpg
 date: 2026-04-17
 tags:
   - Book
@@ -9,7 +9,7 @@ tags:
 ---
 
 <img 
-  src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg" 
+  src="{{ '/images/blog_posts/book-the-three-body-problem.jpg' | relative_url }}" 
   alt="The Three-Body Problem" 
   style="max-height: 600px; display: block; margin: 1em 0;" 
 />
@@ -30,4 +30,4 @@ This is the biggest question I took away from the book: if we were to discover t
 
 5/5
 
-_Read my review of the full trilogy: [Remembrance of Earth's Past](/posts/2026/book-remembrance-of-earths-past/)_
+_Read my review of the full trilogy: [Remembrance of Earth's Past](/book-reviews/2026-08-09-book-remembrance-of-earths-past/)_
