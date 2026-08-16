@@ -1,9 +1,15 @@
 ---
-title: "ML: Fashion Item Classification"
-excerpt: "A simple convolutional neural network trained to classify fashion items.<br/><img src='/images/projects/fashion_mnist.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Fashion Item Classification"
+category: "Deep Learning"
+image: /images/projects/fashion_mnist.png
+excerpt: "A simple convolutional neural network trained to classify fashion items."
+tools:
+  - Python
+  - TensorFlow
+  - CNN
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/fashion_mnist.png' | relative_url }}" 
   alt="Fashion items classification" 

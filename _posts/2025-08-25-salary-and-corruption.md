@@ -1,10 +1,13 @@
 ---
 title: "Public Officials’ Pay, Minimum Wages, and Corruption: What the Data Shows"
+excerpt: "Comparing public officials' pay, minimum wages, and corruption across countries, and why the numbers look bad for Indonesia."
+image: /images/blog_posts/salary-and-corruption-1.png
 date: 2025-08-25
 permalink: /posts/2025/salary-and-corruption.md/
+featured: false
 tags:
-  - politics
-  - data analysis
+  - Politics
+  - Data Analysis
 ---
 
 Amid the salary increase for DPR, I collected data from several countries on four things:

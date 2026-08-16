@@ -1,9 +1,15 @@
 ---
-title: "CompVis: Face Recognition"
-excerpt: "A real-time face recognition system that stores a database of faces and identifies them in video streams. Widely used for employee attendance systems.<br/><img src='/images/projects/face_recognition.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Face Recognition"
+category: "Computer Vision"
+image: /images/projects/face_recognition.png
+excerpt: "A real-time face recognition system that stores a database of faces and identifies them in video streams."
+tools:
+  - Python
+  - OpenCV
+  - Computer Vision
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/face_recognition.png' | relative_url }}" 
   alt="Face recognition" 

@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Blood Over Bright Haven"
+excerpt: "A fantasy that starts familiar and turns into a confrontation of power, ethics, and exploitation. Intelligence without conscience."
+image: /images/blog_posts/book-blood-over-bright-haven.png
 date: 2026-01-18
 tags:
-    - mystery
+  - Book
+  - Mystery
 ---
 
 <img 

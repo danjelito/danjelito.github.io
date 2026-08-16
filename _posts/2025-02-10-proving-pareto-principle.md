@@ -1,11 +1,14 @@
 ---
-title: 'Proving the Pareto Principle with Data'
+title: "Proving the Pareto Principle with Data"
+excerpt: "Testing the 80/20 rule on Wikipedia text: do the top 20% most common words really cover 80% of the document?"
+image: /images/blog_posts/pareto_1.png
 date: 2025-02-10
 permalink: /posts/2025/proving-pareto-principle/
+featured: false
 tags:
-  - data analysis
-  - statistics
-  - productivity
+  - Data Analysis
+  - Statistics
+  - Productivity
 ---
 
 <img 

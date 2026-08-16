@@ -1,11 +1,14 @@
 ---
-title: 'Is an iPhone Really Worth 139 Working Days?'
+title: "Is an iPhone Really Worth 139 Working Days?"
+excerpt: "An iPhone costs an average Indonesian 139 working days. An American needs 12. Is it really worth it?"
+image: /images/blog_posts/iphone.png
 date: 2024-10-21
 permalink: /posts/2024/iphone-cost-indonesia/
+featured: false
 tags:
-  - economics
-  - consumer behavior
-  - technology
+  - Economics
+  - Consumer Behavior
+  - Technology
 ---
 
 <img 

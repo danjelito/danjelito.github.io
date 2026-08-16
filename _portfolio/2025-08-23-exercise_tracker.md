@@ -1,9 +1,15 @@
 ---
-title: "CompVis: Exercise Rep Tracker"
-excerpt: "A computer vision-based system that tracks bicep curl repetitions by analyzing joint angles in real time.<br/><img src='/images/projects/exercise-tracker.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Exercise Rep Tracker"
+category: "Computer Vision"
+image: /images/projects/exercise-tracker.png
+excerpt: "A computer vision-based system that tracks bicep curl repetitions by analyzing joint angles in real time."
+tools:
+  - Python
+  - MediaPipe
+  - Computer Vision
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/exercise-tracker.png' | relative_url }}" 
   alt="Exercise tracker" 

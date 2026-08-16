@@ -1,0 +1,356 @@
+/* ==========================================================================
+   Components — cards, chips, buttons, home page
+   ========================================================================== */
+
+/* Chips — tools / tags */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chip {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--muted);
+  background-color: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2em 0.7em;
+  line-height: 1.4;
+}
+
+.chip--link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Eyebrow label */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* Work grid */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+/* Portfolio card */
+.card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--surface);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-slow), transform var(--transition-slow);
+}
+
+.card--featured {
+  grid-column: span 8;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.card__media {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background-color: var(--code-bg);
+}
+
+.card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.card--contain .card__media img {
+  object-fit: contain;
+  padding: var(--space-3);
+  background-color: var(--code-bg);
+}
+
+.card:hover .card__media img {
+  transform: scale(1.03);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  flex: 1;
+}
+
+.card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+
+.card__title {
+  font-size: var(--text-xl);
+  line-height: 1.3;
+}
+
+.card__title a {
+  color: var(--ink);
+}
+
+.card__title a:hover {
+  color: var(--accent);
+}
+
+.card__excerpt {
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.card__chips {
+  margin-top: auto;
+  padding-top: var(--space-3);
+}
+
+@media (max-width: 900px) {
+  .card,
+  .card--featured {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 600px) {
+  .card,
+  .card--featured {
+    grid-column: span 12;
+  }
+}
+
+/* List items — posts / reviews */
+.post-item {
+  padding: var(--space-5) 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-item:first-of-type {
+  padding-top: 0;
+}
+
+.post-item__meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.post-item__title {
+  font-size: var(--text-xl);
+  margin: var(--space-2) 0;
+}
+
+.post-item__title a {
+  color: var(--ink);
+}
+
+.post-item__title a:hover {
+  color: var(--accent);
+}
+
+.post-item__excerpt {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--space-2);
+}
+
+.post-item__tags {
+  margin-top: var(--space-3);
+}
+
+.list-heading {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: var(--space-6) 0 var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Home hero */
+.hero {
+  padding: var(--space-8) 0 var(--space-6);
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.hero__photo {
+  width: 11rem;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 600px) {
+  .hero__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-5);
+  }
+}
+
+.hero__name {
+  font-size: var(--text-5xl);
+  font-weight: 600;
+  margin-bottom: var(--space-4);
+}
+
+.hero__tagline {
+  font-size: var(--text-xl);
+  color: var(--muted);
+  max-width: 34rem;
+  margin-bottom: var(--space-6);
+}
+
+.hero__role {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin: calc(-1 * var(--space-3)) 0 var(--space-6);
+}
+
+.hero__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero__links a {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+}
+
+/* Section headers on home */
+.section {
+  margin: var(--space-8) 0;
+}
+
+.section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--space-5);
+}
+
+.section__title {
+  font-size: var(--text-2xl);
+}
+
+.section__more {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.section__more:hover {
+  color: var(--accent);
+}
+
+/* Skills groups on home */
+.skills__group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.skills__group-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  color: var(--accent);
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+/* Résumé layout */
+.resume h1 {
+  font-size: var(--text-4xl);
+  margin-bottom: var(--space-3);
+}
+
+.resume p {
+  margin: var(--space-3) 0;
+}
+
+.resume h2 {
+  font-size: var(--text-2xl);
+  margin-top: var(--space-7);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.resume h3 {
+  font-size: var(--text-lg);
+  font-family: var(--font-body);
+  font-weight: 600;
+  margin-top: var(--space-5);
+}
+
+.resume ul {
+  padding-left: 1.2em;
+}
+
+.resume li {
+  margin: var(--space-2) 0;
+}
+
+.page > p {
+  margin: var(--space-4) 0;
+}

@@ -1,14 +1,11 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Work"
 permalink: /portfolio/
-author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="work-grid">
+  {% for post in site.portfolio reversed %}
+    {% include card.html featured=forloop.first %}
+  {% endfor %}
+</div>

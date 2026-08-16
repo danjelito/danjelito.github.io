@@ -1,9 +1,15 @@
 ---
-title: "NLP: Suicide Ideation Detection Using Tweets"
-excerpt: "A model to identify potential suicide ideation in tweets using sentiment analysis and a pre-trained DistilBERT model. Includes interpretation with SHAP.<br/><img src='/images/projects/suicide-tweet.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Suicide Ideation Detection Using Tweets"
+category: "NLP"
+image: /images/projects/suicide-tweet.png
+excerpt: "A model to identify potential suicide ideation in tweets using sentiment analysis and a pre-trained DistilBERT model."
+tools:
+  - Python
+  - DistilBERT
+  - SHAP
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/suicide-tweet.png' | relative_url }}" 
   alt="Suicide tweet" 

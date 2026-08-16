@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Project Hail Mary"
+excerpt: "An astronaut wakes up in another solar system with no memory. The discovery process makes this a must-read for nerds."
+image: /images/blog_posts/book-project-hail-mary.png
 date: 2026-01-01
 tags:
-    - sci-fi
+  - Book
+  - Sci-Fi
 ---
 
 <img 

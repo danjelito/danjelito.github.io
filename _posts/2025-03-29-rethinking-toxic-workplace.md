@@ -1,11 +1,14 @@
 ---
-title: 'Rethinking the Use of "Toxic Workplace"'
+title: "Rethinking the Use of \"Toxic Workplace\""
+excerpt: "The term 'toxic workplace' is so overused it's losing its meaning. A different perspective on workplace complaints."
+image: /images/blog_posts/toxic.png
 date: 2025-03-29
 permalink: /posts/2025/rethinking-toxic-workplace/
+featured: false
 tags:
-  - workplace culture
-  - mindset
-  - professional growth
+  - Workplace Culture
+  - Mindset
+  - Professional Growth
 ---
 
 <img 

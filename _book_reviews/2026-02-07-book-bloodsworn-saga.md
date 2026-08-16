@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Bloodsworn Saga"
+excerpt: "Norse-inspired fantasy with non-stop action, dragons, and Orka, one of the most badass characters I have read."
+image: /images/blog_posts/book-bloodsworn-saga.png
 date: 2026-02-07
 tags:
-    - fantasy
+  - Book
+  - Fantasy
 ---
 
 <img 

@@ -1,0 +1,20 @@
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="nav__brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <ul class="nav__links" id="site-nav">
+      {% for link in site.data.navigation.main %}
+        <li>
+          <a class="nav__link" href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        </li>
+      {% endfor %}
+      <li>
+        <button class="nav__theme" type="button" aria-label="Toggle theme">
+          <span class="theme-label">dark</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>

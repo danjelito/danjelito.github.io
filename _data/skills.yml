@@ -1,0 +1,10 @@
+- name: Programming & Analytics
+  skills: [Python, SQL, R, Lua, Pandas, NumPy]
+- name: BI & Visualization
+  skills: [Looker Studio, Power BI, Tableau, Microsoft Excel, Google Sheets]
+- name: Data Engineering & Databases
+  skills: [BigQuery, PostgreSQL, MongoDB, Spark]
+- name: ML & AI
+  skills: [Scikit-learn, TensorFlow, PyTorch, Optuna]
+- name: Engineering & Infrastructure
+  skills: [Git, Docker, Linux]

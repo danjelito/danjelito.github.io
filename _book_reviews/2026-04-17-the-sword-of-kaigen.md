@@ -1,9 +1,12 @@
 ---
 title: "Book Review: The Sword of Kaigen"
+excerpt: "A military fantasy about the consequences of war, with the single greatest chapter I have ever read: The Duel."
+image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1702907961i/41886271.jpg"
 date: 2026-04-17
 tags:
-    - fantasy
-    - military
+  - Book
+  - Fantasy
+  - Military
 ---
 
 <img 

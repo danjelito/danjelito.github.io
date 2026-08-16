@@ -1,9 +1,15 @@
 ---
-title: "Analysis: Jakarta's Traffic Problem Is Actually a Housing Problem"
-excerpt: "61% of commuters from South Jakarta are stressed. Traffic is the symptom. Spatial mismatch is the disease.<br/><img src='/images/projects/spatial-mismatch/where-do-people-live-and-where-are-businesses-concentrated.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Jakarta's Traffic Problem Is Actually a Housing Problem"
+category: "Data Analysis"
+image: /images/projects/spatial-mismatch/where-do-people-live-and-where-are-businesses-concentrated.png
+excerpt: "61% of commuters from South Jakarta are stressed. Traffic is the symptom. Spatial mismatch is the disease."
+tools:
+  - Python
+  - Pandas
+  - Data Analysis
 collection: portfolio
+featured: true
 ---
-
 Everyone who has spent time in Jakarta knows the traffic. The jams start before sunrise and do not really end until late at night. Billions of Rupiah in productivity are lost every year. Commuters spend hours each day just getting to work and back. This is widely accepted as a fact of life in the city.
 
 But here is what rarely comes up in the conversation: traffic is not the actual problem. Traffic is a symptom. The real problem is that jobs and homes are in completely the wrong places relative to each other. This is called **spatial mismatch**, and the commuter data from Jakarta and the surrounding Jabodetabek region makes the case very clearly.

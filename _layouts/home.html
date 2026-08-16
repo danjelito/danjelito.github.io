@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero__inner">
+    <img class="hero__photo" src="{{ '/images/main-photo.jpeg' | relative_url }}" alt="{{ site.author.name }}">
+    <div class="hero__text">
+      <h1 class="hero__name">{{ site.author.name }}</h1>
+      <p class="hero__tagline">{{ site.description }}</p>
+      <p class="hero__role"><strong>Business Intelligence Lead @ Gentem Indonesia Lifelong Learning Group</strong><br>Based in Jakarta, Indonesia</p>
+      <ul class="hero__links">
+        {% if site.author.github %}<li><a href="https://github.com/{{ site.author.github }}">github</a></li>{% endif %}
+        {% if site.author.kaggle %}<li><a href="https://www.kaggle.com/{{ site.author.kaggle }}">kaggle</a></li>{% endif %}
+        {% if site.author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">linkedin</a></li>{% endif %}
+        {% if site.author.email %}<li><a href="mailto:{{ site.author.email }}">email</a></li>{% endif %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">About</h2>
+  </div>
+  <p>Business Intelligence Lead with 6+ years in analytics, machine learning, and business transformation. I lead a BI team and work with senior leadership and cross-functional teams across Sales, Marketing, Finance, HR, and Operations, building data-driven solutions for commercial performance, management systems, and process automation.</p>
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Skills</h2>
+  </div>
+  {% for group in site.data.skills %}
+  <div class="skills__group">
+    <h3 class="skills__group-title">{{ group.name }}</h3>
+    <ul class="chips">
+      {% for skill in group.skills %}<li><span class="chip">{{ skill }}</span></li>{% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Featured Work</h2>
+    <a class="section__more" href="{{ '/portfolio/' | relative_url }}">all work &rarr;</a>
+  </div>
+  <div class="work-grid">
+    {% assign featured = site.portfolio | concat: site.posts | concat: site.book_reviews | where: 'featured', true %}
+    {% assign featured = featured | sort: 'date' | reverse %}
+    {% for post in featured %}
+      {% if forloop.index > 3 %}{% break %}{% endif %}
+      {% include card.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section__head">
+    <h2 class="section__title">Latest Writing</h2>
+  </div>
+  <div class="work-grid">
+    {% assign latest = site.portfolio | concat: site.posts | concat: site.book_reviews %}
+    {% assign latest = latest | sort: 'date' | reverse %}
+    {% for post in latest %}
+      {% if forloop.index > 6 %}{% break %}{% endif %}
+      {% if post.collection == 'book_reviews' %}
+        {% include card.html contain=true %}
+      {% else %}
+        {% include card.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

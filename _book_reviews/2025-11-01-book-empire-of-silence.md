@@ -1,10 +1,12 @@
 ---
 title: "Book Review: Empire of Silence"
+excerpt: "Hadrian Marlowe tells his own story from the future. A slow, ambitious start that feels like a prologue to something bigger."
+image: /images/blog_posts/book-empire-of-silence.png
 date: 2025-11-01
 tags:
-  - book
-  - science-fiction
-  - fantasy
+  - Book
+  - Science-Fiction
+  - Fantasy
 ---
 
 <img 

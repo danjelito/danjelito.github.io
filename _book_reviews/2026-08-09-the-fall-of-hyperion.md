@@ -1,8 +1,11 @@
 ---
 title: "Book Review: The Fall of Hyperion"
+excerpt: "The pilgrim stories from Hyperion click into place in a single, more conventional narrative. Many mysteries still unresolved, though."
+image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541174620i/77565.jpg"
 date: 2026-08-09
 tags:
-    - sci-fi
+  - Book
+  - Sci-Fi
 ---
 
 <img 

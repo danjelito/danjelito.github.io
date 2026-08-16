@@ -1,11 +1,14 @@
 ---
-title: 'How Sentiment Analysis Can Help Prevent Self-Harm'
+title: "How Sentiment Analysis Can Help Prevent Self-Harm"
+excerpt: "How sentiment analysis works behind the scenes when search engines detect self-harm queries and respond with help."
+image: /images/blog_posts/shap.png
 date: 2025-01-03
 permalink: /posts/2025/sentiment-analysis-self-harm/
+featured: false
 tags:
-  - machine learning
+  - Machine Learning
   - NLP
-  - sentiment analysis
+  - Sentiment Analysis
 ---
 
 <img 

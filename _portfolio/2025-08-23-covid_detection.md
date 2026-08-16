@@ -1,9 +1,15 @@
 ---
-title: "ML: Covid-19 Detection"
-excerpt: "Using a CNN algorithm to analyze lung scans and detect signs of Covid-19 quickly and accurately.<br/><img src='/images/projects/covid_detection.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Covid-19 Detection"
+category: "Deep Learning"
+image: /images/projects/covid_detection.png
+excerpt: "Using a CNN algorithm to analyze lung scans and detect signs of Covid-19 quickly and accurately."
+tools:
+  - Python
+  - TensorFlow
+  - CNN
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/covid_detection.png' | relative_url }}" 
   alt="Covid detection" 

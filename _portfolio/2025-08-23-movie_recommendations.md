@@ -1,9 +1,15 @@
 ---
-title: "ML: Movie Recommendation System"
-excerpt: "A movie recommendation system combining content and collaborative filtering to suggest movies tailored to your preferences and broaden your cinematic horizons.<br/><img src='/images/projects/movie_recommendation.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Movie Recommendation System"
+category: "Machine Learning"
+image: /images/projects/movie_recommendation.png
+excerpt: "A movie recommendation system combining content and collaborative filtering to suggest movies tailored to your preferences."
+tools:
+  - Python
+  - Recommendation
+  - Collaborative Filtering
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/movie_recommendation.png' | relative_url }}" 
   alt="Movie detection" 

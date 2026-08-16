@@ -1,9 +1,14 @@
 ---
-title: "Viz: Interactive Sales Dashboard by Tableau"
-excerpt: "An interactive sales dashboard presenting key metrics and insights visually for stakeholders.<br/><img src='/images/projects/dashboard_supermarket_2.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Interactive Sales Dashboard"
+category: "Visualization"
+image: /images/projects/dashboard_supermarket_2.png
+excerpt: "An interactive sales dashboard presenting key metrics and insights visually for stakeholders."
+tools:
+  - Tableau
+  - Dashboard
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/dashboard_supermarket_2.png' | relative_url }}" 
   alt="Supermarket sales dashboard" 

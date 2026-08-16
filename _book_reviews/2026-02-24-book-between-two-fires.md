@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Between Two Fires"
+excerpt: "Medieval horror about a disgraced knight, an alcoholic priest, and a mysterious girl on a pilgrimage during the plague. The ending broke me."
+image: /images/blog_posts/book-between-two-fires.png
 date: 2026-02-24
 tags:
-    - horror
+  - Book
+  - Horror
 ---
 
 <img 

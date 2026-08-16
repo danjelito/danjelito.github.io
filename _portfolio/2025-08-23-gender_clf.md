@@ -1,9 +1,15 @@
 ---
-title: "ML: Gender Classification with SHAP"
-excerpt: "A machine learning project exploring SHAP for feature interpretability in gender classification. Visualizes feature contributions for transparent model predictions.<br/><img src='/images/projects/shap.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Gender Classification with SHAP"
+category: "Machine Learning"
+image: /images/projects/shap.png
+excerpt: "Exploring SHAP for feature interpretability in gender classification, visualizing feature contributions for transparent model predictions."
+tools:
+  - Python
+  - SHAP
+  - Interpretability
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/shap.png' | relative_url }}" 
   alt="SHAP" 

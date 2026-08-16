@@ -1,9 +1,15 @@
 ---
-title: "Analysis: Customer Cohort"
-excerpt: "Conduct a customer cohort analysis to gain insights into evolving customer behavior over time.<br/><img src='/images/projects/cohort.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Customer Cohort Analysis"
+category: "Data Analysis"
+image: /images/projects/cohort.png
+excerpt: "A customer cohort analysis to gain insights into evolving customer behavior over time."
+tools:
+  - Python
+  - Pandas
+  - Cohort Analysis
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/cohort.png' | relative_url }}" 
   alt="Customer cohort" 

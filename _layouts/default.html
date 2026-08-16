@@ -1,31 +1,22 @@
----
-layout: compress
----
-
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}" data-theme>
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% include nav.html %}
 
-    {{ content }}
+    <main id="main" class="site-main{% if layout.narrow or page.narrow %} site-main--narrow{% endif %}">
+      {{ content }}
+    </main>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    {% include footer.html %}
 
     {% include scripts.html %}
-
   </body>
 </html>

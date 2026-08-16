@@ -1,9 +1,12 @@
 ---
 title: "From Windows to Linux"
+excerpt: "How a broken laptop and a YouTube video pulled me into Linux, and why I never went back to Windows."
+image: /images/blog_posts/fedora.png
 date: 2025-08-03
 permalink: /posts/2025/switching-to-linux/
+featured: false
 tags:
-  - linux
+  - Linux
 ---
 
 <img 

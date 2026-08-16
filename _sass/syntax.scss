@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Syntax highlighting (Rouge) — adapts to light/dark via tokens
+   ========================================================================== */
+
+.highlight {
+  color: var(--ink);
+}
+
+.highlight .hll { background-color: var(--accent-soft); }
+.highlight .err { color: #ee5f5b; }
+
+.highlight .c,
+.highlight .cm,
+.highlight .cp,
+.highlight .c1,
+.highlight .cs { color: var(--muted); font-style: italic; }
+
+.highlight .k,
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kt { color: var(--accent); font-weight: 500; }
+
+.highlight .o,
+.highlight .ow { color: var(--muted); }
+
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss { color: #b45309; }
+
+html[data-theme="dark"] .highlight .s,
+html[data-theme="dark"] .highlight .sb,
+html[data-theme="dark"] .highlight .sc,
+html[data-theme="dark"] .highlight .sd,
+html[data-theme="dark"] .highlight .s2,
+html[data-theme="dark"] .highlight .se,
+html[data-theme="dark"] .highlight .sh,
+html[data-theme="dark"] .highlight .si,
+html[data-theme="dark"] .highlight .sx,
+html[data-theme="dark"] .highlight .sr,
+html[data-theme="dark"] .highlight .s1,
+html[data-theme="dark"] .highlight .ss { color: #fbbf24; }
+
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo,
+.highlight .il { color: #b45309; }
+
+html[data-theme="dark"] .highlight .m,
+html[data-theme="dark"] .highlight .mf,
+html[data-theme="dark"] .highlight .mh,
+html[data-theme="dark"] .highlight .mi,
+html[data-theme="dark"] .highlight .mo,
+html[data-theme="dark"] .highlight .il { color: #fbbf24; }
+
+.highlight .n,
+.highlight .na,
+.highlight .nb,
+.highlight .nc,
+.highlight .no,
+.highlight .nd,
+.highlight .ni,
+.highlight .ne,
+.highlight .nf,
+.highlight .nl,
+.highlight .nn,
+.highlight .nx,
+.highlight .py,
+.highlight .nt,
+.highlight .nv,
+.highlight .bp,
+.highlight .vc,
+.highlight .vg,
+.highlight .vi { color: var(--ink); }
+
+.highlight .nf { font-weight: 500; }
+
+.highlight .gd { color: #ee5f5b; }
+.highlight .gi { color: #62c462; }
+.highlight .gr { color: #ee5f5b; }
+.highlight .gh { color: var(--muted); }
+.highlight .gu { color: var(--muted); }
+.highlight .go { color: var(--muted); }
+.highlight .gt { color: #ee5f5b; }
+.highlight .gs { font-weight: 500; }
+.highlight .gp { color: var(--muted); }
+.highlight .ge { font-style: italic; }
+.highlight .w { color: transparent; }

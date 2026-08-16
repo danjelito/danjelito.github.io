@@ -1,9 +1,15 @@
 ---
-title: "NLP: Amazon Reviews Sentiment Analysis"
-excerpt: "Sentiment analysis of Amazon reviews using VADER and RoBERTa models, with evaluation via regression metrics and error analysis.<br/><img src='/images/projects/roberta.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Amazon Reviews Sentiment Analysis"
+category: "NLP"
+image: /images/projects/roberta.png
+excerpt: "Sentiment analysis of Amazon reviews using VADER and RoBERTa models, with evaluation via regression metrics and error analysis."
+tools:
+  - Python
+  - NLP
+  - RoBERTa
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/roberta.png' | relative_url }}" 
   alt="Rpberta" 

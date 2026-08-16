@@ -1,9 +1,11 @@
 ---
 title: "Book Review: The Three-Body Problem"
+excerpt: "Confusing at first, then it clicks and the scale explodes. Sci-fi that cares more about ideas than people."
+image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1415428227i/20518872.jpg"
 date: 2026-04-17
 tags:
-  - book
-  - sci-fi
+  - Book
+  - Sci-Fi
 ---
 
 <img 

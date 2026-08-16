@@ -1,9 +1,15 @@
 ---
-title: "ML: Asteroid Danger Prediction"
-excerpt: "Predicting asteroid danger using stacked ensemble models based on size, speed, and distance data from space agencies.<br/><img src='/images/projects/asteroid.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Asteroid Danger Prediction"
+category: "Machine Learning"
+image: /images/projects/asteroid.png
+excerpt: "Predicting asteroid danger using stacked ensemble models based on size, speed, and distance data from space agencies."
+tools:
+  - Python
+  - scikit-learn
+  - Ensemble
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/asteroid.png' | relative_url }}" 
   alt="Asteroid classification" 

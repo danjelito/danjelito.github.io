@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Tender Is the Flesh"
+excerpt: "A plague makes all animals poisonous, so eating human meat becomes legal. Unsettling, and that ending. Eat vegetables, not your neighbors."
+image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1755191335i/240139608.jpg"
 date: 2026-04-17
 tags:
-    - horror
+  - Book
+  - Horror
 ---
 
 <img 

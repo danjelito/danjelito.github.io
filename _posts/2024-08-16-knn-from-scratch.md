@@ -1,12 +1,15 @@
 ---
-title: 'Understanding KNN by Building It From Scratch'
+title: "Understanding KNN by Building It From Scratch"
+excerpt: "Implementing KNN from scratch in Python, because the best way to understand an algorithm is to build it yourself."
+image: /images/blog_posts/knn.png
 date: 2024-08-16
 permalink: /posts/2024/knn-from-scratch/
+featured: false
 tags:
-  - machine learning
-  - programming
-  - math
-  - hands-on learning
+  - Machine Learning
+  - Programming
+  - Math
+  - Hands-On Learning
 ---
 
 <img 

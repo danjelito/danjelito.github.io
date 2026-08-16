@@ -1,9 +1,15 @@
 ---
-title: "ML: Temperature Forecasting with Python"
-excerpt: "Using Meta's Prophet algorithm for time series forecasting—a data crystal ball analyzing past patterns to predict future trends.<br/><img src='/images/projects/temp_prediction.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Temperature Forecasting with Python"
+category: "Time Series"
+image: /images/projects/temp_prediction.png
+excerpt: "Using Meta's Prophet algorithm for time series forecasting."
+tools:
+  - Python
+  - Prophet
+  - Time Series
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/temp_prediction.png' | relative_url }}" 
   alt="Temperature prediction" 

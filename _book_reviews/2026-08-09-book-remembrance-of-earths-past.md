@@ -1,9 +1,11 @@
 ---
 title: "Book Review: Remembrance of Earth's Past"
+excerpt: "From a secret project in Mao's China to the fate of the universe. The Dark Forest theory will follow you around for days."
+image: "https://imgs.search.brave.com/oZGZr04DpEl-sY8S9Afnk3DwpBDN5L40apOKeC70GDA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saWZl/b2ZjaGF6LmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMi8w/Mi8xX2p1cXJoYXhh/c2txZTN6eXh4aXJw/MWcucG5nP3c9MTAz/OQ"
 date: 2026-08-09
 tags:
-  - book
-  - sci-fi
+  - Book
+  - Sci-Fi
 ---
 
 <img 

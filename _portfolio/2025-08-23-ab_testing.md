@@ -1,9 +1,15 @@
 ---
-title: "Stats: AB Testing with Python"
-excerpt: "Evaluating landing page performance versus previous version using statistical methods. A rigorous test essential for serious business.<br/><img src='/images/projects/ab_testing.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "A/B Testing with Python"
+category: "Statistics"
+image: /images/projects/ab_testing.png
+excerpt: "Evaluating landing page performance versus previous version using statistical methods."
+tools:
+  - Python
+  - Statistics
+  - A/B Testing
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/ab_testing.png' | relative_url }}" 
   alt="AB testing" 

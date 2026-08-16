@@ -1,12 +1,13 @@
 ---
 title: "When Averages Lie: Simpson's Paradox in Business Reporting"
+excerpt: "Every center declined, yet the aggregate went up. How Simpson's paradox hides what's really happening in your numbers."
+image: /images/blog_posts/simpson_1.png
 date: 2026-08-09
 permalink: /posts/2026/simpsons-paradox/
+featured: false
 tags:
-  - data analysis
-  - statistics
-  - BI
-  - KPI
+  - Data Analysis
+  - Statistics
 ---
 
 <img 

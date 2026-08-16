@@ -1,9 +1,15 @@
 ---
-title: "ML: Supermarket Customer Segmentation"
-excerpt: "Using k-means clustering to group customers by behavior for targeted marketing.<br/><img src='/images/projects/customer_segment.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Supermarket Customer Segmentation"
+category: "Machine Learning"
+image: /images/projects/customer_segment.png
+excerpt: "Using k-means clustering to group customers by behavior for targeted marketing."
+tools:
+  - Python
+  - scikit-learn
+  - K-Means
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/customer_segment.png' | relative_url }}" 
   alt="Customer segment" 

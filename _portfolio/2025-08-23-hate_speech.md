@@ -1,9 +1,15 @@
 ---
-title: "NLP: Hate Speech and Offensive Language Detection"
-excerpt: "Using LSTM to detect offensive language and hate speech in tweets. The model learns patterns of harmful content through diverse datasets.<br/><img src='/images/projects/hate_speech.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Hate Speech and Offensive Language Detection"
+category: "NLP"
+image: /images/projects/hate_speech.png
+excerpt: "Using LSTM to detect offensive language and hate speech in tweets."
+tools:
+  - Python
+  - TensorFlow
+  - LSTM
 collection: portfolio
+featured: false
 ---
-
 <img 
   src="{{ '/images/projects/hate_speech.png' | relative_url }}" 
   alt="Hate speech" 

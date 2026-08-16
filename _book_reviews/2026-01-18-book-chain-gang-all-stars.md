@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Chain-Gang All-Stars"
+excerpt: "Prisoners fight to the death for entertainment in a future where cruelty is content. The real horror is everything around the fights."
+image: /images/blog_posts/book-chain-gang-all-stars.png
 date: 2026-01-18
 tags:
-    - dystopia
+  - Book
+  - Dystopia
 ---
 
 <img 

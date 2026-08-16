@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Not Quite Dead Yet"
+excerpt: "A woman must solve her own murder before her injury kills her. Strong premise, but the constant death jokes wore me down."
+image: /images/blog_posts/book-not-quite-dead-yet.png
 date: 2026-02-24
 tags:
-    - mystery
+  - Book
+  - Mystery
 ---
 
 <img 

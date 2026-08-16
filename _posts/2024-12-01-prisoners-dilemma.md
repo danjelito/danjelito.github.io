@@ -1,11 +1,14 @@
 ---
-title: 'Prisoner’s Dilemma: Why Being “Good” Wins in Game Theory'
+title: "Prisoner’s Dilemma: Why Being “Good” Wins in Game Theory"
+excerpt: "I simulated the Prisoner's Dilemma to test whether 'good' strategies beat 'evil' ones in game theory."
+image: /images/blog_posts/game_theory.png
 date: 2024-12-01
 permalink: /posts/2024/prisoners-dilemma/
+featured: false
 tags:
-  - game theory
-  - strategy
-  - machine learning
+  - Game Theory
+  - Strategy
+  - Machine Learning
 ---
 
 <img 

@@ -1,9 +1,15 @@
 ---
-title: "CompVis: Parking Spot Detection"
-excerpt: "A weekend project using computer vision to detect if parking spots are empty.<br/><img src='/images/projects/parking.png' style='max-width: 100%; height: auto; margin-top: 12px;'>"
+title: "Parking Spot Detection"
+category: "Computer Vision"
+image: /images/projects/parking.png
+excerpt: "A weekend project using computer vision to detect if parking spots are empty."
+tools:
+  - Python
+  - OpenCV
+  - Computer Vision
 collection: portfolio
+featured: true
 ---
-
 <img 
   src="{{ '/images/projects/parking.png' | relative_url }}" 
   alt="Parking spot detection" 

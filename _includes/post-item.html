@@ -1,0 +1,13 @@
+<article class="post-item reveal">
+  <div class="post-item__meta">
+    {% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>{% endif %}
+    {% if post.category %}<span>{{ post.category }}</span>{% endif %}
+  </div>
+  <h3 class="post-item__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  {% if post.excerpt %}<p class="post-item__excerpt">{{ post.excerpt }}</p>{% endif %}
+  {% if post.tags %}
+  <ul class="chips post-item__tags">
+    {% for tag in post.tags %}<li><a class="chip chip--link" href="{{ site.tag_archive.path | relative_url }}#{{ tag | slugify }}">{{ tag }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+</article>

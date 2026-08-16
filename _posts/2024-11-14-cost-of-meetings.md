@@ -1,11 +1,14 @@
 ---
-title: 'The Real Cost of Too Many Meetings'
+title: "The Real Cost of Too Many Meetings"
+excerpt: "83% of employees spend up to a third of their week in meetings. A breakdown of what that really costs."
+image: /images/blog_posts/meeting_1.png
 date: 2024-11-14
 permalink: /posts/2024/cost-of-meetings/
+featured: false
 tags:
-  - productivity
-  - workplace
-  - meetings
+  - Productivity
+  - Workplace
+  - Meetings
 ---
 
 <img 

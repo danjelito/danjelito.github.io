@@ -1,8 +1,11 @@
 ---
 title: "Book Review: Piranesi"
+excerpt: "A strange, quiet book about a House with endless halls and tides. Go in blind and let it peel like an onion."
+image: /images/blog_posts/book-piranesi.png
 date: 2026-01-10
 tags:
-    - sci-fi
+  - Book
+  - Sci-Fi
 ---
 
 <img 

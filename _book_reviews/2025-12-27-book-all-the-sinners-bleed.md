@@ -1,9 +1,11 @@
 ---
 title: "Book Review: All the Sinners Bleed"
+excerpt: "A brutal, unputdownable thriller about race, power, and murder in a rural American town. I finished 370 pages in four hours."
+image: /images/blog_posts/book-all-the-sinners-bleed.png
 date: 2025-12-27
 tags:
-  - book
-  - thriller
+  - Book
+  - Thriller
 ---
 
 <img 

@@ -1,0 +1,29 @@
+<article class="card{% if include.featured %} card--featured{% endif %}{% if include.contain %} card--contain{% endif %} reveal">
+  {% if post.image %}
+  <a class="card__media" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="card__body">
+    <div class="card__meta">
+      {% if post.category %}
+        <span class="eyebrow">{{ post.category }}</span>
+      {% elsif post.tags.first %}
+        <span class="eyebrow">{{ post.tags.first }}</span>
+      {% endif %}
+      {% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>{% endif %}
+    </div>
+    <h3 class="card__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% if post.excerpt %}
+      {% unless post.excerpt contains '<img' %}
+        <p class="card__excerpt">{{ post.excerpt }}</p>
+      {% endunless %}
+    {% endif %}
+    {% assign chips = post.tools | default: post.tags %}
+    {% if chips %}
+    <ul class="chips card__chips">
+      {% for chip in chips %}<li><span class="chip">{{ chip }}</span></li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>
