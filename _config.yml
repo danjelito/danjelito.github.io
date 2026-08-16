@@ -8,7 +8,6 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
 title                    : "Devan's Brain Dump"
 title_separator          : "-"
 name                     : &name "Devan Anjelito"
@@ -81,32 +80,7 @@ author:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 words_per_minute         : 160
 future                   : true
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+
 atom_feed:
   hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
@@ -145,33 +119,22 @@ analytics:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .github
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
   - Dockerfile
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
   - local
   - log
   - node_modules
   - package.json*
-  - Rakefile
   - README
   - tmp
   - vendor

@@ -186,19 +186,19 @@ Findings from a full-repo unused/orphaned-file audit (2026-08-16). Every candida
   - Confidence: High
   - Verification: `jekyll build` — draft not in `_site/`.
 
-- [ ] Review: delete `CONTRIBUTING.md` + `.github/ISSUE_TEMPLATE/` (generic academicpages template text no longer accurate for a personal portfolio)
+- [x] **Completed: 2026-08-16** — Review: delete `CONTRIBUTING.md` + `.github/ISSUE_TEMPLATE/` (generic academicpages template text no longer accurate for a personal portfolio)
   - Reason: template boilerplate; only referenced by GitHub conventions.
   - Checked: file contents.
   - Confidence: Medium
   - Verification: `git status` shows expected deletions; build unaffected.
 
-- [ ] Review: prune `_data/ui-text.yml` to `en` / `en-US` only
+- [x] **Completed: 2026-08-16** — Review: prune `_data/ui-text.yml` to `en` / `en-US` only
   - Reason: only ref is `seo.html:21` inside a disabled `{% if paginator %}` block (pagination commented out); `site.locale` is `en-US`.
   - Checked: grep across includes/layouts/config.
   - Confidence: Medium
   - Verification: build succeeds; served HTML unchanged.
 
-- [ ] Review: remove dead `_config.yml` keys and unused gem
+- [x] **Completed: 2026-08-16** — Review: remove dead `_config.yml` keys and unused gem
   - Reason: `site_theme` referenced nowhere; `comments:`/`staticman:` blocks unused; `include: [.htaccess]` and `exclude:` entries (`CHANGELOG`, `Capfile`, `Gruntfile.js`, `gulpfile.js`, `Rakefile`, `assets/js/plugins`, `assets/js/vendor`) point to files that do not exist; `jemoji` gem not in `plugins:`/`whitelist:`.
   - Checked: config vs filesystem vs Gemfile.
   - Confidence: Medium
