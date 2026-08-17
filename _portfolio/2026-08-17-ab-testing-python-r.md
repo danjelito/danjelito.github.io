@@ -1,6 +1,7 @@
 ---
 title: "An A/B Test From Raw Data to a Decision: The Same Analysis in Python and R"
 category: "Statistics"
+image: /images/projects/ab-testing-two-languages/ab-testing-two-languages.jpeg
 excerpt: "A full A/B test run through both languages, from raw data to business decision."
 tools:
   - Python
@@ -9,6 +10,11 @@ tools:
 collection: portfolio
 featured: false
 ---
+<img
+  src="{{ '/images/projects/ab-testing-two-languages/ab-testing-two-languages.jpeg' | relative_url }}"
+  alt="A/B testing in Python and R: control versus treatment split with a confidence interval chart"
+  style="width: 100%; max-width: 700px; height: auto; display: block; margin: 1em 0;"
+/>
 
 ## The Experiment
 
