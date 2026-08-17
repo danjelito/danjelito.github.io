@@ -1,6 +1,7 @@
 ---
 title: "A Model With 95% Accuracy Can Still Be Useless"
 category: "Machine Learning"
+image: /images/projects/accuracy-trap/confusion-matrices.png
 excerpt: "95% accuracy sounds impressive. Not when 95% of your data belongs to the same class."
 tools:
   - Machine Learning
@@ -8,9 +9,7 @@ tools:
 collection: portfolio
 featured: false
 ---
-A model achieving 95% accuracy sounds impressive.
-
-Until you discover that 95% of your data belongs to the same class. Then the model could do absolutely nothing and still look great.
+When training a machine learning model, you should NOT only rely on accuracy to measure its performance. This is why.
 
 ## The Problem
 
@@ -48,6 +47,12 @@ Model A gets 9,500 out of 10,000 right. That is 95% accuracy. Every single fraud
 
 Model B only gets 9,600 out of 10,000 right. That is 96% accuracy, barely better than Model A.
 
+<img
+  src="{{ '/images/projects/accuracy-trap/confusion-matrices.png' | relative_url }}"
+  alt="Confusion matrices for Model A and Model B"
+  style="width: 100%; max-width: 700px; height: auto; display: block; margin: 1em 0;"
+/>
+
 Judged only by accuracy, the two models are nearly tied. The difference between 95% and 96% is noise, and it says nothing about whether either model actually works.
 
 ## What the Data Tells Us
@@ -78,18 +83,6 @@ Measured against the actual goal, the two models are far apart. Model A is worth
 
 This is the core of the trap: **accuracy is a denominator game.** When the majority class is 95% of the data, a model can hit 95% without ever doing its job. The score is not evidence of skill. It is evidence that the data is unbalanced.
 
-## The Important Distinction
-
-The deeper point is that the right metric depends on what the model is for. Swapping accuracy for F1 does not automatically fix anything.
-
-Every prediction has two possible mistakes: a false positive and a false negative. Those two mistakes rarely cost the same.
-
-- In fraud detection, missing a fraud costs money directly. A few extra false alarms are a minor inconvenience. So you weight recall heavily.
-- In medical screening, the opposite can be true. Every flagged case gets retested, and the retest is cheap relative to the cost of a missed case.
-- In spam filtering, both directions matter. A missed spam email is annoying. A legitimate email sent to spam is worse.
-
-The metric should match the cost of the mistakes the business actually pays for. Accuracy assumes every mistake costs the same and every class is equally common. Both assumptions fail in most real problems.
-
 ## What This Means in Practice
 
 I have seen this exact trap in NLP work. Models that detect harmful content rarely deal with balanced data. Hate speech is the minority of tweets. Suicide ideation is the minority of posts. In projects like those, reporting accuracy alone tells stakeholders almost nothing. The useful numbers are recall and precision, because the question is whether the model caught the harmful tweets and how often it flagged harmless ones.
@@ -104,7 +97,3 @@ Before trusting a number, ask what it actually measures. A high accuracy on an i
 - Look at the confusion matrix, then at precision, recall, and F1. They describe what the model actually finds.
 - The right metric depends on what the mistakes cost. Accuracy silently assumes both classes and both error types matter equally.
 - Report the metric that matches the decision, not the metric that looks good.
-
-## Limitations
-
-The numbers above are a constructed example to illustrate a mechanism, not a real benchmark. In a real fraud problem the class ratio, the error costs, and the model quality would all be different. The point is not the specific figures. The point is that accuracy alone cannot tell you whether a model works, and that is true whenever the data is unbalanced.
