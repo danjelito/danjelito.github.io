@@ -79,7 +79,7 @@ author:
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 words_per_minute         : 160
-future                   : true
+future                   : false
 
 atom_feed:
   hide                   : true     # change to true to hide the RSS feed in the footer

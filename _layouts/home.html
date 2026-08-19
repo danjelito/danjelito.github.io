@@ -46,7 +46,7 @@ layout: default
     <a class="section__more" href="{{ '/portfolio/' | relative_url }}">all work &rarr;</a>
   </div>
   <div class="work-grid">
-    {% assign featured = site.portfolio | concat: site.posts | concat: site.book_reviews | where: 'featured', true %}
+    {% assign featured = site.portfolio | concat: site.posts | concat: site.book_reviews | where: 'featured', true | where_exp: "post", "post.date <= site.time" %}
     {% assign featured = featured | sort: 'date' | reverse %}
     {% for post in featured %}
       {% if forloop.index > 3 %}{% break %}{% endif %}
@@ -60,7 +60,7 @@ layout: default
     <h2 class="section__title">Latest Writing</h2>
   </div>
   <div class="work-grid">
-    {% assign latest = site.portfolio | concat: site.posts | concat: site.book_reviews %}
+    {% assign latest = site.portfolio | concat: site.posts | concat: site.book_reviews | where_exp: "post", "post.date <= site.time" %}
     {% assign latest = latest | sort: 'date' | reverse %}
     {% for post in latest %}
       {% if forloop.index > 9 %}{% break %}{% endif %}

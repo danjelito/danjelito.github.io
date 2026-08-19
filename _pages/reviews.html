@@ -5,7 +5,8 @@ permalink: /book-reviews/
 ---
 
 <div class="work-grid">
-  {% for post in site.book_reviews reversed %}
+  {% assign published = site.book_reviews | where_exp: "post", "post.date <= site.time" %}
+  {% for post in published reversed %}
     {% include card.html contain=true %}
   {% endfor %}
 </div>

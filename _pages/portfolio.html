@@ -5,7 +5,8 @@ permalink: /portfolio/
 ---
 
 <div class="work-grid">
-  {% for post in site.portfolio reversed %}
+  {% assign published = site.portfolio | where_exp: "post", "post.date <= site.time" %}
+  {% for post in published reversed %}
     {% include card.html featured=forloop.first %}
   {% endfor %}
 </div>

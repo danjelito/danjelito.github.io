@@ -5,7 +5,8 @@ permalink: /tags/
 ---
 
 {% include base_path %}
-{% assign tagged_items = site.posts | concat: site.book_reviews %}
+{% assign published_reviews = site.book_reviews | where_exp: "post", "post.date <= site.time" %}
+{% assign tagged_items = site.posts | concat: published_reviews %}
 {% include group-by-array collection=tagged_items field="tags" %}
 
 {% for tag in group_names %}
